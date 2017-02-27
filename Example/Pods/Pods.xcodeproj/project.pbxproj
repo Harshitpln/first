@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05AF2FA5F37BA6D3D1A0AFD8C115F59A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60C43F5E9CA830891F532939CED60D7 /* ReplaceMe.swift */; };
 		17F0797C58B6B0778793376EA738017E /* first-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A709F5ABB3F53CE546D76A9E826CF4FD /* first-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D626A8EC6B7AF31E47C9358F9C54A88 /* first-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD063A7B483F2DFD747E89D6587CFCB /* first-dummy.m */; };
 		442365D2476C95E1222C15711F0A8624 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
@@ -17,6 +16,9 @@
 		D0C3BF9A4CD57B3CE568C557670CF387 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		E562F5F6A1DD60AF3E158CBE300EAF21 /* Pods-first_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F05FF2EF8E78EF7AB3F03F7FDD25F02C /* Pods-first_Example-dummy.m */; };
 		ECEF070D7E535A0505989D95FE6279C5 /* Pods-first_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EED9B6293A3983FB4826F29D8ADB6EF /* Pods-first_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDBDAEE91E644F2B00014E50 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBDAEE81E644F2B00014E50 /* String.swift */; };
+		FDBDAEEB1E64508600014E50 /* LetsTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBDAEEA1E64508600014E50 /* LetsTextField.swift */; };
+		FDBDAEED1E645A7500014E50 /* CustomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBDAEEC1E645A7500014E50 /* CustomUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +50,6 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98A71B3FD70BFB15C0818D72EDCF1C09 /* Pods-first_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-first_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		99502A7897F360D504ED52C62D4D2A2A /* Pods-first_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-first_Tests-resources.sh"; sourceTree = "<group>"; };
-		A60C43F5E9CA830891F532939CED60D7 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		A709F5ABB3F53CE546D76A9E826CF4FD /* first-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "first-umbrella.h"; sourceTree = "<group>"; };
 		A85A80F0FFEE0419A8E60E3BDA8D8D6A /* Pods_first_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_first_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0783750686FBA7A1FE0BCD0758A39A /* Pods-first_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-first_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -62,6 +63,9 @@
 		E41B1E0A639B22E45BB557AF7A8B8DB2 /* first-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "first-prefix.pch"; sourceTree = "<group>"; };
 		F05FF2EF8E78EF7AB3F03F7FDD25F02C /* Pods-first_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-first_Example-dummy.m"; sourceTree = "<group>"; };
 		F4BD8E17903E66570C66A7A0151DB18C /* Pods-first_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-first_Example.modulemap"; sourceTree = "<group>"; };
+		FDBDAEE81E644F2B00014E50 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		FDBDAEEA1E64508600014E50 /* LetsTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetsTextField.swift; sourceTree = "<group>"; };
+		FDBDAEEC1E645A7500014E50 /* CustomUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,7 +211,9 @@
 		C26A7BDBED334F6D9440EA538F36C5DE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A60C43F5E9CA830891F532939CED60D7 /* ReplaceMe.swift */,
+				FDBDAEE81E644F2B00014E50 /* String.swift */,
+				FDBDAEEA1E64508600014E50 /* LetsTextField.swift */,
+				FDBDAEEC1E645A7500014E50 /* CustomUIView.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -345,8 +351,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDBDAEE91E644F2B00014E50 /* String.swift in Sources */,
+				FDBDAEED1E645A7500014E50 /* CustomUIView.swift in Sources */,
+				FDBDAEEB1E64508600014E50 /* LetsTextField.swift in Sources */,
 				3D626A8EC6B7AF31E47C9358F9C54A88 /* first-dummy.m in Sources */,
-				05AF2FA5F37BA6D3D1A0AFD8C115F59A /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +390,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2FE0E3E319363B52729D40A7D88D265F /* first.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -451,6 +460,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2FE0E3E319363B52729D40A7D88D265F /* first.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
