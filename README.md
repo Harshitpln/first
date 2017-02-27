@@ -22,7 +22,7 @@ pod "first"
 
 ## Author
 
-Harshitpln, harshit.padalia@letsnurture.com
+Harshitpln, harshitp.letsnurture@gmail.com
 
 ## License
 

@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/Harshitpln/first'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Harshitpln' => 'harshit.padalia@letsnurture.com' }
+  s.author           = { 'Harshitpln' => 'harshitp.letsnurture@gmail.com' }
   s.source           = { :git => 'https://github.com/Harshitpln/first.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
