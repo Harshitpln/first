@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -37,10 +38,11 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C9Y-Vw-eJf" customClass="customview" customModule="first">
-                                <frame key="frameInset" minX="67" minY="98" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C9Y-Vw-eJf" customClass="customview" customModule="first">
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="0FS-7p-a3f"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="radious">
                                         <real key="value" value="37"/>
@@ -57,7 +59,10 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Axc-Nm-PPF" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="0Co-vs-g3r"/>
+                            <constraint firstItem="C9Y-Vw-eJf" firstAttribute="top" secondItem="Axc-Nm-PPF" secondAttribute="bottom" constant="49" id="0mV-cC-bH7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="C9Y-Vw-eJf" secondAttribute="trailing" constant="52" id="0p6-9Z-Mf8"/>
                             <constraint firstItem="Axc-Nm-PPF" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="PpG-4d-lcc"/>
+                            <constraint firstItem="C9Y-Vw-eJf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="51" id="YTy-bk-b7l"/>
                             <constraint firstAttribute="trailing" secondItem="Axc-Nm-PPF" secondAttribute="trailing" constant="20" id="qeh-dH-P6S"/>
                         </constraints>
                     </view>

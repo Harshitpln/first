@@ -30,6 +30,7 @@ public class customview: UIView
             self.roundCorners(corners: UIRectCorner(rawValue: UInt(cornersteter)), radius: CGFloat(borderradiousseter))
         }
     }
+    
     // PARAM :- Functions
     
     func roundCorners(corners:UIRectCorner, radius: CGFloat) {
