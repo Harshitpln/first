@@ -48,10 +48,10 @@
                                         <real key="value" value="37"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornersteter">
-                                        <real key="value" value="4"/>
+                                        <real key="value" value="7"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderradiousseter">
-                                        <real key="value" value="63"/>
+                                        <real key="value" value="64"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
