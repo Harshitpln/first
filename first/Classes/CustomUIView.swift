@@ -45,10 +45,21 @@ public class customview: UIView
         {
         didSet{
             self.layer.borderColor = borderColor.cgColor
+           // self.layer.masksToBounds = true
         }
             
     }
     
+    
+    @IBInspectable var gradiontcolor2: UIColor = UIColor.clear
+    @IBInspectable var gradiontcolor1: UIColor = UIColor.clear
+        {
+        didSet{
+            createGradientLayer(color1: gradiontcolor1 , color2: gradiontcolor2)
+            
+        }
+        
+    }
     
     // PARAM :- Functions
     
@@ -57,9 +68,28 @@ public class customview: UIView
         let mask = CAShapeLayer()
         mask.path = path.cgPath
         self.layer.mask = mask
+        
     }
     
+    
+    
+    func createGradientLayer(color1: UIColor, color2: UIColor) {
+        
+        var gradientLayer = CAGradientLayer()
+        gradientLayer.frame = self.layer.bounds
+
+        gradientLayer.colors = [color1.cgColor, color2.cgColor]
+        self.layer.addSublayer(gradientLayer)
+     }
+    
 }
+
+
+
+
+
+
+
 
 
 
