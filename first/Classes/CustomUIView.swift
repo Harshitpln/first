@@ -11,9 +11,7 @@ import UIKit
 @IBDesignable
 public class customview: UIView
 {
-    
     // PARAM :- - view radious changer
-    
     @IBInspectable var radious: Float32 = 0.0
         {
         didSet {
@@ -30,6 +28,27 @@ public class customview: UIView
             self.roundCorners(corners: UIRectCorner(rawValue: UInt(cornersteter)), radius: CGFloat(borderradiousseter))
         }
     }
+    
+    
+    @IBInspectable var border: CGFloat = 0
+        {
+        didSet{
+            self.layer.borderWidth = border
+        }
+        
+     
+            
+    }
+    
+    
+    @IBInspectable var borderColor: UIColor = UIColor.black
+        {
+        didSet{
+            self.layer.borderColor = borderColor.cgColor
+        }
+            
+    }
+    
     
     // PARAM :- Functions
     

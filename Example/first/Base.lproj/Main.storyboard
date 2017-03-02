@@ -48,10 +48,16 @@
                                         <real key="value" value="37"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornersteter">
-                                        <real key="value" value="7"/>
+                                        <real key="value" value="10"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderradiousseter">
-                                        <real key="value" value="64"/>
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="border">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
@@ -59,17 +65,17 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Axc-Nm-PPF" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="0Co-vs-g3r"/>
-                            <constraint firstItem="C9Y-Vw-eJf" firstAttribute="top" secondItem="Axc-Nm-PPF" secondAttribute="bottom" constant="49" id="0mV-cC-bH7"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="C9Y-Vw-eJf" secondAttribute="trailing" constant="52" id="0p6-9Z-Mf8"/>
+                            <constraint firstItem="C9Y-Vw-eJf" firstAttribute="top" secondItem="Axc-Nm-PPF" secondAttribute="bottom" constant="34" id="0mV-cC-bH7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="C9Y-Vw-eJf" secondAttribute="trailing" id="0p6-9Z-Mf8"/>
                             <constraint firstItem="Axc-Nm-PPF" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="PpG-4d-lcc"/>
-                            <constraint firstItem="C9Y-Vw-eJf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="51" id="YTy-bk-b7l"/>
+                            <constraint firstItem="C9Y-Vw-eJf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="YTy-bk-b7l"/>
                             <constraint firstAttribute="trailing" secondItem="Axc-Nm-PPF" secondAttribute="trailing" constant="20" id="qeh-dH-P6S"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="114" y="-92"/>
+            <point key="canvasLocation" x="112.8" y="-92.203898050974516"/>
         </scene>
     </scenes>
 </document>
