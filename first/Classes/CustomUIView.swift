@@ -36,8 +36,6 @@ public class customview: UIView
             self.layer.borderWidth = border
         }
         
-     
-            
     }
     
     
@@ -50,12 +48,12 @@ public class customview: UIView
             
     }
     
-    
+    @IBInspectable var gradiontcolor3: UIColor = UIColor.clear
     @IBInspectable var gradiontcolor2: UIColor = UIColor.clear
     @IBInspectable var gradiontcolor1: UIColor = UIColor.clear
         {
         didSet{
-            createGradientLayer(color1: gradiontcolor1 , color2: gradiontcolor2)
+            createGradientLayer(color1: gradiontcolor1 , color2: gradiontcolor2,  color3: gradiontcolor3)
             
         }
         
@@ -70,25 +68,19 @@ public class customview: UIView
         self.layer.mask = mask
         
     }
-    
-    
-    
-    func createGradientLayer(color1: UIColor, color2: UIColor) {
+    func createGradientLayer(color1: UIColor, color2: UIColor, color3: UIColor) {
         
         var gradientLayer = CAGradientLayer()
         gradientLayer.frame = self.layer.bounds
-
-        gradientLayer.colors = [color1.cgColor, color2.cgColor]
+        
+        gradientLayer.colors = [color1.cgColor, color2.cgColor, color3.cgColor]
         self.layer.addSublayer(gradientLayer)
-     }
+    }
     
-}
 
-
-
-
-
-
+    
+    
+         }
 
 
 
